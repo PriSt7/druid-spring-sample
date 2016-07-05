@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping("/index")
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Hello world!");
+        model.addAttribute("message", "Hello ---world!");
         return "hello";
     }
 
@@ -30,7 +30,6 @@ public class HelloController {
     @RequestMapping("/json")
     @ResponseBody
     public List<Product> json() {
-
         return productService.list();
     }
 }
