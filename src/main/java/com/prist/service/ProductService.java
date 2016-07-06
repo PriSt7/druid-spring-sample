@@ -1,6 +1,6 @@
 package com.prist.service;
 
-import com.prist.domain.Product;
+import com.prist.model.Product;
 
 import java.util.List;
 

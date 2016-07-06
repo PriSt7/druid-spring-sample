@@ -1,4 +1,4 @@
-package com.prist.domain;
+package com.prist.model;
 
 /**
  * 商品领域模型

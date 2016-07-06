@@ -1,6 +1,6 @@
-package com.prist.repository;
+package com.prist.mapper;
 
-import com.prist.domain.Product;
+import com.prist.model.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

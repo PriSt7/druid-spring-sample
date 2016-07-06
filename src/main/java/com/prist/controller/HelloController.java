@@ -1,6 +1,6 @@
 package com.prist.controller;
 
-import com.prist.domain.Product;
+import com.prist.model.Product;
 import com.prist.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

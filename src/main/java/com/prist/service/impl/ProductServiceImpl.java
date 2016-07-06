@@ -1,7 +1,7 @@
 package com.prist.service.impl;
 
-import com.prist.domain.Product;
-import com.prist.repository.ProductRepository;
+import com.prist.model.Product;
+import com.prist.mapper.ProductRepository;
 import com.prist.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
