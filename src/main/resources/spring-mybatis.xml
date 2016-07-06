@@ -29,7 +29,7 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
         <property name="driverClassName" value="${jdbc_driverClassName}"/>
 
         <!--<property name="filters" value="mergeStat"/>-->
-        <property name="filters" value="stat" />
+        <property name="filters" value="stat,wall"/>
 
     </bean>
 
