@@ -1,6 +1,6 @@
-package com.yintai.service;
+package com.prist.service;
 
-import com.yintai.domain.Product;
+import com.prist.domain.Product;
 
 import java.util.List;
 

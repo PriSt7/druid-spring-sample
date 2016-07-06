@@ -1,6 +1,6 @@
-package com.yintai.repository;
+package com.prist.repository;
 
-import com.yintai.domain.Product;
+import com.prist.domain.Product;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

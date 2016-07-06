@@ -1,4 +1,4 @@
-package com.yintai.domain;
+package com.prist.domain;
 
 /**
  * 商品领域模型

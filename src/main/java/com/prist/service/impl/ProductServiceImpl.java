@@ -1,8 +1,8 @@
-package com.yintai.service.impl;
+package com.prist.service.impl;
 
-import com.yintai.domain.Product;
-import com.yintai.repository.ProductRepository;
-import com.yintai.service.ProductService;
+import com.prist.domain.Product;
+import com.prist.repository.ProductRepository;
+import com.prist.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
