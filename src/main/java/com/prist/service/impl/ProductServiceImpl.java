@@ -1,7 +1,7 @@
 package com.prist.service.impl;
 
 import com.prist.model.Product;
-import com.prist.mapper.ProductRepository;
+import com.prist.mapper.ProductMapper;
 import com.prist.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -9,16 +9,16 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by liangyali on 14/6/24.
+ * @author prist
  */
 @Service
 public class ProductServiceImpl implements ProductService {
 
     @Autowired
-    private ProductRepository productRepository;
+    private ProductMapper productMapper;
 
     @Override
     public List<Product> list() {
-        return productRepository.list();
+        return productMapper.list();
     }
 }

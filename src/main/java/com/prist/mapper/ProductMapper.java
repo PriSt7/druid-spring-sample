@@ -8,10 +8,10 @@ import java.util.List;
 /**
  * 商品存储类
  *
- * @author liangyali
+ * @author prist
  */
 @Repository
-public interface ProductRepository {
+public interface ProductMapper {
 
     /**
      * 根据Id获取商品信息
